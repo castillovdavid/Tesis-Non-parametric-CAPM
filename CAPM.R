@@ -45,7 +45,7 @@ CAMANCHACA <- read_csv("C:/Users/casti/Desktop/Proyecto de Título/Scripts/Datos
 IGPA <- read_csv("C:/Users/casti/Desktop/Proyecto de Título/Scripts/Datos/Datos históricos S&P CLX IGPA.csv")
 IPSA <- read_csv("C:/Users/casti/Desktop/Proyecto de Título/Scripts/Datos/Datos históricos S&P CLX IPSA.csv")
 
-
+#hola
 Bonos$Último <- as.numeric(gsub("," , ".",Bonos$Último))
 
 # RECODIFICACIÓN DE FECHA
